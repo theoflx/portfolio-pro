@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.competances {
+    height: 92vh;
+}
+
+.left_part_competances {
+    width: 50%;
+}
+
+.title_page_competances {
+    margin: 7% 13% 7%;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.right_part_competances {
+    width: 50%;
+}
+
+.box_for_skill {
+    margin: 0% 10%;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.skill_container {
+    width: 95%;
+    margin: 1% 0% 5% 5%;
+    background-color: #ddd;
+}
+
+.skill_text {
+    margin: 2% 5%;
+}
+
+.skills {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+.html {
+    width: 80%;
+    background-color: rgb(20, 20, 20);
+}
+
+.css {
+    width: 70%;
+    background-color: rgb(20, 20, 20);
+}
+
+.js {
+    width: 55%;
+    background-color: rgb(20, 20, 20);
+}
+
+.php {
+    width: 40%;
+    background-color: rgb(20, 20, 20);
+}
+
+.second_title_page_competances{
+    margin: 7% 2% 7%;
+    font-family: 'Montserrat Alternates', sans-serif; 
+}
+
+.box_for_grid{
+    margin: 0% 2% 0%;
+    width: 85%;
+    height: 70%;
+}
+
+.up_part, .bottom_part{
+    display: flex;
+    height:50%
+}
+
+.box1, .box2, .box3, .box4, .box5, .box6{
+    width: 50%;
+    height: 100%;
+}
+
+.logo_react, .node-logo, .logo_android, .logo_postgres, .logo_mongo,  .logo_figma{
+    width: 80%;
+    height: 80%;
+    margin: 10% 10% 10% 10%;
+    transition: all 0.3s;
+}
+
+.logo_react:hover, .node-logo:hover, .logo_android:hover, .logo_postgres:hover, .logo_mongo:hover,  .logo_figma:hover{
+    transform: scale(1.5);
+}
+
+

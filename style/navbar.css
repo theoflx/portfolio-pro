@@ -1,0 +1,29 @@
+.navbar{
+    display: flex;
+    justify-content: center;
+    height: 8vh;
+    background-color: rgb(20, 20, 20);
+    position: sticky;
+    top: 0;
+}
+.navbar_list{
+    width: 45%;
+    margin-top: 1.5%;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+.nav_li_me, .nav_li_project, .nav_li_contact{
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+.nav_li_me:hover, .nav_li_project:hover, .nav_li_contact:hover{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+a:link{
+    text-decoration: none;
+}

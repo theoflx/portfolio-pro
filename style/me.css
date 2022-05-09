@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.me {
+    height: 92vh;
+    display: flex;
+}
+
+.left_part_me {
+    width: 50%;
+}
+
+.title_page_me {
+    margin: 13% 13% 7%;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.right_part_me {
+    width: 50%;
+}
+
+.text_page_me, .text_page_me_second{
+    font-family: 'Montserrat Alternates', sans-serif;
+    line-height: 1.4;
+}
+
+.text_page_me{
+    margin: 7% 13% 2%;
+    font-size: 16px;
+}
+
+.text_page_me_second{
+    margin: 3% 13% 2%;
+}
+
+.box_pictures{
+    display: flex;
+    flex-direction: column;
+    height: 75%;
+    width: 60%;
+    margin-top: 12%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.picture_1{
+    border-radius: 50%;
+    height: 70%;
+    width: 60%;
+    z-index: 5;
+    transition: all 0.8s;
+}
+
+.picture_2{
+    border-radius: 50%;
+    height: 70%;
+    width: 60%;
+    z-index: 5;
+    margin-top: -20%;
+    margin-left: auto;
+    transition: all 0.8s;
+}
+
+.picture_2::after{
+    z-index: 500;
+    border-radius: 50%;
+    height: 70%;
+    width: 60%;
+    margin-top: -20%;
+    margin-left: auto;
+    transition: all 0.8s;
+}
+
+.picture_3{
+    border-radius: 50%;
+    height: 70%;
+    width: 60%;
+    z-index: 5;
+    margin-top: -25%;
+    transition: all 0.8s;
+}
+
+.picture_1:hover, .picture_2:hover, .picture_3:hover{
+    z-index: 1000;
+    transform: scale(1.2);
+}
